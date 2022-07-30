@@ -12,6 +12,7 @@ class TodoMain extends Component {
   }
 //  onload fetch the task list
   componentDidMount = () => {
+    document.title="Todo App (React)"
     this.getTasks();
   };
 

@@ -110,9 +110,9 @@ class TodoMain extends Component {
             taskComplete['color'] ='red';
           }
           return (
-            <Card key={index} color={color} style={card}>
+            <Card fluid key={index} color={color} style={card}>
               <Card.Content>
-              <Grid columns={3} divided>
+              <Grid columns={3} divided doubling>
               <Grid.Row>
                 <Grid.Column width={2}>
                 <Card.Meta textAlign="center">
